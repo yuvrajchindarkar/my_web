@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px ;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: brown;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li:hover{
+    color: turquoise;
+    transform: .4s;
+}
+
+h3{
+    color: aliceblue;
+    margin: 20px 0px 20px ;
+    font-size: 50px;
+    padding-top: 150px ;
+    padding-left: 15%;
+    
+}
+
+h1{
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 15%;
+}
+
+.myclicks{
+    width: 100%;
+    padding: 90px 0px;
+    background-color: rgb(13, 9, 26);
+}
+h4{
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 10px ;
+    padding-bottom: 70px;
+    padding-left: 10%;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myclicks img{
+    height: auto;
+    width: 430px ;
+    border-radius: 8px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.about-photo{
+    color: aliceblue;
+    width: 550px;
+    
+   
+}
+.about-photo h2{
+    color: brown;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.about-photo p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.photo{
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.contact{
+    background-color: black;
+    width: 100%;
+    padding: 90px 0px;
+}
+
+form{
+    color: aliceblue;
+    text-align: center;
+    
+}
+label{
+    padding: 0px 30px;
+    margin-bottom: 0px auto;
+    margin-bottom: 25px;
+}
+
+.feedback{
+    justify-content: center;
+    text-align: center;
+}
